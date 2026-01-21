@@ -1,3 +1,11 @@
 import Onboarding from "@/widgets/onboarding/ui/Onboarding";
 
-export default Onboarding
+const onboarding = () => {
+
+    return (
+
+        <Onboarding />
+    )
+}
+
+export default onboarding

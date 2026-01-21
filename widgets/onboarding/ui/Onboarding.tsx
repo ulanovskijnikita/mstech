@@ -1,5 +1,8 @@
-import { Link } from "expo-router"
+import useInjection from "@/shared/api/context/useInjection"
+import { Link, useFocusEffect } from "expo-router"
+import { observer } from "mobx-react-lite"
 import { StyleSheet, Text, View } from "react-native"
+import OnboardingViewModel from "../model/OnboardingViewModel"
 
 const style = StyleSheet.create({
 
@@ -26,6 +29,10 @@ const style = StyleSheet.create({
 
 const Onboarding = () => {
 
+    const vm = useInjection( OnboardingViewModel )
+
+    useFocusEffect(() => vm.handleLayoutEffect())
+
     return (
         
         <View style={style.bg}>
@@ -37,4 +44,4 @@ const Onboarding = () => {
     )
 }
 
-export default Onboarding
+export default observer( Onboarding )
