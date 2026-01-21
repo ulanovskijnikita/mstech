@@ -1,50 +1,83 @@
-# Welcome to your Expo app 👋
+Тестовое задание
+При выполнении тестового задания для нас критически важны скорость и качество результата, поэтому ты можешь и даже рекомендуется активно использовать нейросети на каждом этапе реализации
+Во время записи экрана создать простое приложение (Flutter или Swift на выбор) со следующим функционалом:
+1) Онбординг (1–2 экрана)
+Любой простой текст или иллюстрация.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+Кнопка «Продолжить».
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
+2) Экран Paywall
+Придумать очень простой дизайн (можно прямо в коде).
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
+Две подписки: Месяц / Год (год – скидка).
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Кнопка «Продолжить» — должна «покупать» (эмулировать покупку, реальный биллинг не нужен).
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+3) Главный экран
+Любой контент (список, текст, картинка).
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
+4) Сохранение состояния подписки
+Если пользователь «купил» подписку — при следующем запуске приложения сразу открывается главный экран.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+Можно использовать любой метод хранения (SharedPreferences / UserDefaults и т.п.).
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+ Обязательная часть — использование нейросети
+В процессе записи экрана обязательно показать, как ты используешь любые нейросети для:
+генерации части кода,
 
-## Join the community
 
-Join our community of developers creating universal apps.
+оптимизации/рефакторинга,
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+поиска ошибок,
+
+
+ускорения разработки.
+
+
+Нам важно увидеть, как ты работаешь в связке «разработчик + AI».
+
+ Что прислать
+Видео (скринкаст) с выполнением задания (любой формат: mp4, mov, запись экрана Mac/Windows).
+
+
+Ссылку на GitHub-репозиторий с кодом.
+
+
+Короткий README (можно на видео устно показать, а можно текстом):
+
+
+архитектура,
+
+
+структура проекта,
+
+
+что бы улучшил при большем времени.
+
+
+ Как мы оцениваем
+Умение мыслить и объяснять решения.
+
+
+Скорость адаптации и самостоятельность.
+
+
+Инициативность (если что-то улучшил — супер).
+
+
+Работа с нейросетями в реальном времени.
+
+
+Аккуратность и структура кода.
+
+
+Минимальный UI/UX-смысл (не дизайн, а логика).
